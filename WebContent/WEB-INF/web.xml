@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         id="WebApp_ID"
+         version="4.0">
+
+  <display-name>DhImportsCar</display-name>
+
+  <!-- Servlets para Cadastro -->
+  <servlet>
+    <description>Servlet para cadastro de carro</description>
+    <servlet-name>cadastrarCarroController</servlet-name>
+    <servlet-class>carro.controller.cadastrarcarroController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cadastrarCarroController</servlet-name>
+    <url-pattern>/cadastrarcarroController</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para cadastro de cliente</description>
+    <servlet-name>cadastrarClienteController</servlet-name>
+    <servlet-class>carro.controller.cadastrarclienteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cadastrarClienteController</servlet-name>
+    <url-pattern>/cadastrarclienteController</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para cadastro de estoque</description>
+    <servlet-name>cadastrarEstoqueController</servlet-name>
+    <servlet-class>carro.controller.cadastrarestoqueController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cadastrarEstoqueController</servlet-name>
+    <url-pattern>/cadastrarestoqueController</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para cadastro de usuário</description>
+    <servlet-name>cadastrarUsuarioController</servlet-name>
+    <servlet-class>carro.controller.cadastrarusuarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cadastrarUsuarioController</servlet-name>
+    <url-pattern>/cadastrarusuarioController</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para cadastro de vendedor</description>
+    <servlet-name>cadastrarVendedorController</servlet-name>
+    <servlet-class>carro.controller.cadastrarvendedorController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cadastrarVendedorController</servlet-name>
+    <url-pattern>/cadastrarvendedorController</url-pattern>
+  </servlet-mapping>
+
+  <!-- Servlets para Busca -->
+  <servlet>
+    <description>Servlet para busca de carros</description>
+    <servlet-name>buscarCarroController</servlet-name>
+    <servlet-class>carro.controller.buscarCarroController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>buscarCarroController</servlet-name>
+    <url-pattern>/buscarCarros</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para busca de clientes</description>
+    <servlet-name>buscarClienteController</servlet-name>
+    <servlet-class>carro.controller.buscarClienteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>buscarClienteController</servlet-name>
+    <url-pattern>/buscarClientes</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para busca de estoques</description>
+    <servlet-name>buscarEstoqueController</servlet-name>
+    <servlet-class>carro.controller.buscarEstoqueController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>buscarEstoqueController</servlet-name>
+    <url-pattern>/buscarEstoques</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para busca de usuários</description>
+    <servlet-name>buscarUsuarioController</servlet-name>
+    <servlet-class>carro.controller.buscarUsuarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>buscarUsuarioController</servlet-name>
+    <url-pattern>/buscarUsuarios</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para busca de vendedores</description>
+    <servlet-name>buscarVendedorController</servlet-name>
+    <servlet-class>carro.controller.buscarVendedorController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>buscarVendedorController</servlet-name>
+    <url-pattern>/buscarVendedores</url-pattern>
+  </servlet-mapping>
+
+  <!-- Servlets para Modificação -->
+  <servlet>
+    <description>Servlet para modificação de carro</description>
+    <servlet-name>modificarCarroController</servlet-name>
+    <servlet-class>carro.controller.modificarCarroController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>modificarCarroController</servlet-name>
+    <url-pattern>/modificarCarro</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para modificação de cliente</description>
+    <servlet-name>modificarClienteController</servlet-name>
+    <servlet-class>carro.controller.modificarClienteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>modificarClienteController</servlet-name>
+    <url-pattern>/modificarCliente</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para modificação de estoque</description>
+    <servlet-name>modificarEstoqueController</servlet-name>
+    <servlet-class>carro.controller.modificarEstoqueController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>modificarEstoqueController</servlet-name>
+    <url-pattern>/modificarEstoque</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para modificação de usuário</description>
+    <servlet-name>modificarUsuarioController</servlet-name>
+    <servlet-class>carro.controller.modificarUsuarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>modificarUsuarioController</servlet-name>
+    <url-pattern>/modificarUsuario</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para modificação de vendedor</description>
+    <servlet-name>modificarVendedorController</servlet-name>
+    <servlet-class>carro.controller.modificarVendedorController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>modificarVendedorController</servlet-name>
+    <url-pattern>/modificarVendedor</url-pattern>
+  </servlet-mapping>
+
+  <!-- Servlets para Alteração -->
+  <servlet>
+    <description>Servlet para alteração de carro</description>
+    <servlet-name>alterarCarroController</servlet-name>
+    <servlet-class>carro.controller.alterarCarroController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>alterarCarroController</servlet-name>
+    <url-pattern>/alterarCarro</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>Servlet para alteração de cliente</description>
+    <servlet-name>alterarClienteController</servlet-name>
+    <servlet-class>carro.controller.alterarClienteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>alterarClienteController</servlet-name>
+    <url-pattern>/alterarClientes</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para alteração de estoque</description>
+    <servlet-name>alterarEstoqueController</servlet-name>
+    <servlet-class>carro.controller.alterarEstoqueController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>alterarEstoqueController</servlet-name>
+    <url-pattern>/alterarEstoques</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description>Servlet para alteração de usuário</description>
+    <servlet-name>alterarUsuarioController</servlet-name>
+    <servlet-class>carro.controller.alterarUsuarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>alterarUsuarioController</servlet-name>
+    <url-pattern>/alterarUsuario</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>Servlet para alteração de vendedor</description>
+    <servlet-name>alterarVendedorController</servlet-name>
+    <servlet-class>carro.controller.alterarVendedorController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>alterarVendedorController</servlet-name>
+    <url-pattern>/alterarVendedor</url-pattern>
+  </servlet-mapping>
+
+</web-app>
