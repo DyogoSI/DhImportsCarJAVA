@@ -70,12 +70,7 @@
             <a href="${pageContext.request.contextPath}/consultarUsuario.jsp">Consultar Usuário</a>
             <a href="${pageContext.request.contextPath}/consultarVendedor.jsp">Consultar Vendedor</a>
 
-            <!-- Alterações -->
-            <a href="${pageContext.request.contextPath}/alterarCarro.jsp">Alterar Carro</a>
-            <a href="${pageContext.request.contextPath}/alterarCliente.jsp">Alterar Cliente</a>
-            <a href="${pageContext.request.contextPath}/alterarEstoque.jsp">Alterar Estoque</a>
-            <a href="${pageContext.request.contextPath}/alterarUsuario.jsp">Alterar Usuário</a>
-            <a href="${pageContext.request.contextPath}/alterarVendedor.jsp">Alterar Vendedor</a>
+
         </div>
     </div>
 </body>
